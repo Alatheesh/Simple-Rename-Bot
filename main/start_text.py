@@ -18,7 +18,7 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://github.com/MrMKN>MrMKN</a></b>"                                     
+    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://t.me/sula20062007>LATHEESH</a></b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/llathu63035")
         ],[
@@ -47,7 +47,7 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Master=f"<a href=https://t.me/llathu63035>NTM</a> & <a href=https://t.me/llathu63035>NTM</a>"  
+    Master=f"<a href=https://t.me/sula20062007>LATHEESH</a> & <a href=https://t.me/sula54321>BB</a>"  
     Source="<a href=https://t.me/llathu63035>Click Here</a>"
     txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/sula20062007>LATHEESH</a>\nBot Updates: <a href=https://t.me/llathu63035>NTM</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
